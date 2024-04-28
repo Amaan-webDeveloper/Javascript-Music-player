@@ -1,0 +1,76 @@
+.border {
+  border: 2px solid yellow;
+}
+.flex {
+  display: flex;
+}
+.item-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.bg-gray {
+  background-color: #121212;
+  color: white;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.invert {
+  filter: invert(1);
+}
+
+.rounded {
+  border-radius: 12px;
+}
+.m-1 {
+  margin: 5px;
+}
+.p-1 {
+  padding: 10px;
+}
+
+/*  */ /**/ /**/
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray; /* Set the color of the scrollbar thumb */
+  border-radius: 6px; /* Set the border radius of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #181818; /* Set the color of the scrollbar track */
+}
+
+/* Firefox */
+/* Note: Firefox supports scrollbar-color and scrollbar-width properties */
+/* Set the color of the scrollbar thumb and track */
+
+/* scrollbar-color: #3498db #f1f1f1; */
+
+/* Set the width of the scrollbar */
+
+/* scrollbar-width: thin; */
+
+/* Edge */
+/* Note: Edge supports scrollbar-color and scrollbar-width properties */
+/* Set the color of the scrollbar thumb and track */
+/* -ms-overflow-style: none;
+scrollbar-color: #3498db #f1f1f1;
+/* Set the width of the scrollbar */
+/* scrollbar-width: thin; */
+
+/* Hide the scrollbar track in Edge */
+body {
+  scrollbar-face-color: #f1f1f1;
+}
+
+/* Hide the scrollbar track in Internet Explorer */
+body {
+  -ms-scrollbar-track-color: #f1f1f1;
+}
